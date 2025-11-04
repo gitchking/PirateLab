@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "xuac",
-  projectName: "piracy",
+  organizationName: "gitchking",
+  projectName: "PirateLab",
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -38,8 +38,8 @@ const config = {
         },
         items: [
           {
-            href: "https://gitlab.com/piracy/piracy",
-            label: "GitLab",
+            href: "https://github.com/gitchking/PirateLab",
+            label: "GitHub",
             position: "right",
           },
         ],
@@ -58,7 +58,7 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://gitlab.com/piracy/piracy/-/edit/master/docs/",
+          editUrl: "https://github.com/gitchking/PirateLab/edit/main/docs/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
